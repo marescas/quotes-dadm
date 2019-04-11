@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="idiomas">
+        <item>@string/english</item>
+        <item>@string/ruso</item>
+    </string-array>
+    <string-array name="datatype">
+        <item>Room</item>
+        <item>SQLiteOpenHelper</item>
+    </string-array>
+</resources>

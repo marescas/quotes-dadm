@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/notuser"
+        android:key="username"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="@string/username"
+        android:title="@string/username" />
+    <PreferenceCategory android:title="@string/webServices">
+
+        <ListPreference
+            android:defaultValue="@string/english"
+            android:entries="@array/idiomas"
+            android:entryValues="@array/idiomas"
+            android:key="list_idiomas"
+            android:title="@string/whichlanguage" />
+        <ListPreference
+            android:defaultValue="GET"
+            android:entries="@array/http"
+            android:entryValues="@array/http"
+            android:key="list_http"
+            android:title="@string/webrequest" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/database">
+
+        <ListPreference
+            android:defaultValue="Room"
+            android:entries="@array/datatype"
+            android:entryValues="@array/datatype"
+            android:key="database_type"
+            android:title="@string/selectDatabase" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

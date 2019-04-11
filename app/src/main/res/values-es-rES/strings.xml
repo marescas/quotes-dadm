@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Citas</string>
+    <string name="getQuotation">Obtener citas</string>
+    <string name="favoriteQuotation">Citas favoritas</string>
+    <string name="settings">Configuración</string>
+    <string name="about">Acerca de</string>
+    <string name="randomQuotation">Cita aleatoria</string>
+    <string name="creators">"QuotationShake por \n \n Marcos Esteve Casademunt \n   Enric Bonet Cortés \n \n    Contacto  \n \n     maresca@inf.upv.es \n enbocor@inf.upv.es  \n \n    2019 "</string>
+    <string name="username">Nombre del usuario</string>
+    <string name="iyname">Inserta tú nombre</string>
+    <string name="whichlanguage">Las citas se recibirán en el siguiente lenguaje</string>
+    <string name="webrequest">Las peticiciones web se procesarán con el metodo HTTP seleccionado</string>
+    <string name="authorinfo">Información del autor</string>
+    <string name="refreshToQuotation">Hola %1s!   Pulsa refrescar para obtener una nueva cita</string>
+    <string name="sampleQuotation">Esto es una cita de ejemplo %1sd</string>
+    <string name="sampleAuthor">Esto es un autor de ejemplo %1sd</string>
+    <string name="error">Error no autor</string>
+    <string name="delete">Estás seguro que quieres eliminar esta cita</string>
+    <string name="menu_add">Añadir</string>
+    <string name="new_quote">Nueva cita</string>
+    <string name="deleteAll">Estas seguro que quieres eliminar todas tu citas favoritas</string>
+    <string name="webServices">Servicio web</string>
+    <string name="english">Inglés</string>
+    <string name="ruso">Ruso</string>
+    <string name="notuser">Sin nombre</string>
+    <string name="database">Base de datos</string>
+    <string name="selectDatabase">Selecciona la base de datos</string>
+
+</resources>
